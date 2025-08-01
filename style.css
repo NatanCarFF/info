@@ -22,7 +22,7 @@
 
 .dark-theme {
     /* Cores do Tema Escuro */
-    --body-bg: #282c36;
+    --body-bg: #3c404b;
     --resume-bg: #3c404b;
     --left-column-bg: #4a4f59;
     --primary-color: #8bb9ed; /* Azul mais claro */
@@ -33,7 +33,7 @@
     --link-color: var(--primary-color);
     --link-hover-color: var(--accent-color);
     --card-bg-color: #4a4f59;
-    --card-shadow: 0 4px 15px #3c404b;
+    --card-shadow: 0 4px 15px rgba(0, 0, 0, 0.08); /* Sombra mais visível */
     --hover-effect-bg: #5a5f6b;
     --switch-bg: #4a4f59;
     --switch-slider-bg: #e0e0e0;
