@@ -6,7 +6,7 @@
     --left-column-bg: #e0e0e0;
     --primary-color: #0a4f91; /* Azul principal (para h1, links) */
     --secondary-color: #1a6cb1; /* Azul secundário (para h2, títulos de cargo) */
-    --accent-color: #e67e22; /* Laranja/destaque (para ícones, bordas, hover) */
+    --accent-color: #a0d0ff; /* Outro tom de azul */
     --text-color: #333;
     --border-color: #ccc;
     --link-color: var(--primary-color);
@@ -27,7 +27,7 @@
     --left-column-bg: #4a4f59;
     --primary-color: #8bb9ed; /* Azul mais claro */
     --secondary-color: #a0d0ff; /* Outro tom de azul */
-    --accent-color: #f39c12; /* Laranja mais vibrante */
+    --accent-color: #a0d0ff; /* Outro tom de azul */
     --text-color: #e0e0e0;
     --border-color: #555;
     --link-color: var(--primary-color);
