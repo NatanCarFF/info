@@ -305,31 +305,7 @@ ul li {
     padding: 10px 0;
     border-top: 1px dashed var(--border-color);
     transition: color 0.3s ease, border-top-color 0.3s ease;
-}
-
-.print-only {
-    display: none; /* Esconder por padrão, mostrar apenas na impressão */
-}
-
-/* Responsividade */
-@media (max-width: 768px) {
-    .resume-container {
-        flex-direction: column; /* Colunas empilham em telas menores */
-    }
-    .left-column, .right-column {
-        min-width: unset; /* Remove largura mínima */
-        width: 100%; /* Ocupa toda a largura */
-        padding: 20px;
-    }
-    h1 {
-        font-size: 1.8em;
-    }
-    h2 {
-        font-size: 1.3em;
-    }
-    .badge-grid, .tech-grid, .certificate-grid {
-        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); /* Ajuste para grids menores */
-    }
+    display: block; /* Garante que o footer é um elemento de bloco e visível no navegador */
 }
 
 /* Estilos do Botão de Tema */
@@ -406,6 +382,27 @@ input:checked + .slider:before {
     transition: color 0.3s ease;
 }
 
+/* Responsividade */
+@media (max-width: 768px) {
+    .resume-container {
+        flex-direction: column; /* Colunas empilham em telas menores */
+    }
+    .left-column, .right-column {
+        min-width: unset; /* Remove largura mínima */
+        width: 100%; /* Ocupa toda a largura */
+        padding: 20px;
+    }
+    h1 {
+        font-size: 1.8em;
+    }
+    h2 {
+        font-size: 1.3em;
+    }
+    .badge-grid, .tech-grid, .certificate-grid {
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); /* Ajuste para grids menores */
+    }
+}
+
 /* Estilos de impressão */
 @media print {
     body {
@@ -463,5 +460,6 @@ input:checked + .slider:before {
     .page-footer {
         display: block; /* Mostra o rodapé apenas na impressão */
         border-top: 1px solid #ccc;
+        color: #000 !important; /* Garante que o texto do rodapé seja preto na impressão */
     }
 }
