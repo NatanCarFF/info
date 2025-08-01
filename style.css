@@ -6,7 +6,7 @@
     --left-column-bg: #e0e0e0;
     --primary-color: #0a4f91; /* Azul principal (para h1, links) */
     --secondary-color: #1a6cb1; /* Azul secundário (para h2, títulos de cargo) */
-    --accent-color: #a0d0ff; /* Outro tom de azul */
+    --accent-color: #1a6cb1; /* Azul secundário (para h2, títulos de cargo) */
     --text-color: #333;
     --border-color: #ccc;
     --link-color: var(--primary-color);
@@ -33,7 +33,7 @@
     --link-color: var(--primary-color);
     --link-hover-color: var(--accent-color);
     --card-bg-color: #4a4f59;
-    --card-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    --card-shadow: 0 4px 15px #3c404b;
     --hover-effect-bg: #5a5f6b;
     --switch-bg: #4a4f59;
     --switch-slider-bg: #e0e0e0;
