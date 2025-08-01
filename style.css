@@ -22,7 +22,7 @@
 
 .dark-theme {
     /* Cores do Tema Escuro */
-    --body-bg: #3c404b;
+    --body-bg: #282c36;
     --resume-bg: #3c404b;
     --left-column-bg: #4a4f59;
     --primary-color: #8bb9ed; /* Azul mais claro */
@@ -251,7 +251,7 @@ ul li {
     padding: 5px; /* Padding interno para a imagem */
 }
 .dark-theme .badge-item img, .dark-theme .tech-item img {
-    background-color: #333; /* Fundo escuro para imagens no tema escuro */
+    background-color: #4a4f59; /* Fundo escuro para imagens no tema escuro */
 }
 
 .badge-item p, .tech-item p {
