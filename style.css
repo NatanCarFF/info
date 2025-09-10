@@ -20,6 +20,10 @@
     --switch-text-color: #333;
 }
 
+.espaco {
+    margin-bottom: 20px;
+}
+
 .dark-theme {
     /* Cores do Tema Escuro */
     --body-bg: #282c36;
