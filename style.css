@@ -4,10 +4,10 @@
     --body-bg: #f4f4f4;
     --resume-bg: #fff;
     --left-column-bg: #e0e0e0;
-    --primary-color: #333; /* Azul principal (para h1, links) */
-    --secondary-color: #333; /* Azul secundário (para h2, títulos de cargo) */
-    --accent-color: #333; /* Azul secundário (para h2, títulos de cargo) */
-    --text-color: #333;
+    --primary-color: #3f3b3b; /* principal (para h1, links) */
+    --secondary-color: #3f3b3b; /* secundário (para h2, títulos de cargo) */
+    --accent-color: #3f3b3b; /* secundário (para h2, títulos de cargo) */
+    --text-color: #3f3b3b;
     --border-color: #ccc;
     --link-color: var(--primary-color);
     --link-hover-color: var(--accent-color);
