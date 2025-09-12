@@ -177,7 +177,7 @@ ul li {
 
 .subtitle {
     text-align: center;
-    font-size: 1.05em; /* Ligeiramente maior */
+    font-size: 0.8em; /* Ligeiramente maior */
     color: var(--text-color);
     margin: 5px 0;
     font-weight: 500;
