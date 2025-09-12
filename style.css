@@ -246,8 +246,8 @@ ul li {
 }
 
 .badge-item img, .tech-item img {
-    width: 65px; /* Ligeiramente maior */
-    height: 65px; /* Manter proporção */
+    width: 90px; /* Ligeiramente maior */
+    height: 90px; /* Manter proporção */
     object-fit: contain; /* Garantir que a imagem se ajuste sem cortar */
     margin-bottom: 10px; /* Mais espaçamento */
     border-radius: 8px; /* Cantos levemente arredondados */
