@@ -226,7 +226,7 @@ ul li {
 
 .badge-item, .tech-item {
     background-color: var(--card-bg-color); /* Fundo dos cards */
-    padding: 15px 10px; /* Mais padding */
+    padding: 1px 1px; /* Mais padding */
     border-radius: 10px; /* Cantos arredondados */
     text-align: center;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08); /* Sombra suave */
